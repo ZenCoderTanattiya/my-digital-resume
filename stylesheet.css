@@ -10,3 +10,22 @@ html {
 h3 {
   color: saddlebrown;
 }
+
+.myDiv {
+  background-color: cornsilk;
+  text-align: left;
+  padding: 30px;
+  margin: 30px;
+}
+
+.footerDiv {
+  background-color: burlywood;
+  text-align: left;
+}
+
+.borderDiv {
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+  border-radius: 50%;
+}
