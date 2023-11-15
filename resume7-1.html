@@ -77,8 +77,34 @@
         </article>
       </div>
     </section>
-    <div class="footerDiv">
-      <footer><h2 id="contact">Contact</h2></footer>
+    <div class="footerDiv" padding="10px">
+      <footer>
+        <form action="https://formsubmit.co/tanattiya@yahoo.com" method="POST">
+          <input
+            type="hidden"
+            name="_url"
+            value="https://formsubmit.co/tanattiya@yahoo.com.html"
+          />
+          <lable for="subject">Choose your email subject</lable>
+          <select id="subject" required>
+            <option value="Inquiry">Inquiry</option>
+            <option value="Question">Question</option>
+            <option value="Feedback">Feedback</option>
+          </select>
+          <p>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Insert your email address"
+            />
+          </p>
+          <p><label for="comment" name="comment">Send me a message </label></p>
+          <textarea name="comment" cols="30" rows="5"></textarea>
+          <button type="submit">Send</button>
+          <h2 id="contact">Contact</h2>
+        </form>
+      </footer>
       <a
         href="https://www.linkedin.com/in/tanattiya-rungtham-7665a517b/"
         target="_blank"
