@@ -1,6 +1,6 @@
 header {
-  background-image: url("/images/desktop.png");
-
+  background-image: url("images/portrait.png");
+  background-color: bisque;
   text-align: center;
   padding-top: 30px;
 }
