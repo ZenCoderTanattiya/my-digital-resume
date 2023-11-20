@@ -60,10 +60,6 @@ h3 {
       border-color: black;
       margin-bottom: 30px;
     }
-
-    body {
-      background-color: green;
-    }
   }
 
   @media only screen and (max-width: 820px) {
@@ -85,10 +81,6 @@ h3 {
       border-color: black;
       margin-bottom: 30px;
     }
-
-    body {
-      background-color: blue;
-    }
   }
 
   @media only screen and (max-width: 390px) {
@@ -109,10 +101,6 @@ h3 {
       border-width: 1px;
       border-color: black;
       margin-bottom: 30px;
-    }
-
-    body {
-      background-color: red;
     }
   }
 }
