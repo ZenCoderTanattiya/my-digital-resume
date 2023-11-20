@@ -3,6 +3,14 @@ html {
   background-image: url("images/desktop.png");
 }
 
+img {
+  border-radius: 15%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-bottom: 30px;
+}
+
 h3 {
   color: saddlebrown;
 }
@@ -33,14 +41,6 @@ h3 {
     width: 1440px;
   }
 
-  img {
-    border-radius: 15%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    margin-bottom: 30px;
-  }
-
   @media only screen and (max-width: 912px) {
     header {
       background-image: url("images/hero.png");
@@ -51,14 +51,6 @@ h3 {
       padding-top: 30px;
       height: 1368px;
       width: 912px;
-    }
-
-    img {
-      border-radius: 15%;
-      border-style: solid;
-      border-width: 1px;
-      border-color: black;
-      margin-bottom: 30px;
     }
   }
 
@@ -73,14 +65,6 @@ h3 {
       height: 1180px;
       width: 820px;
     }
-
-    img {
-      border-radius: 15%;
-      border-style: solid;
-      border-width: 1px;
-      border-color: black;
-      margin-bottom: 30px;
-    }
   }
 
   @media only screen and (max-width: 390px) {
@@ -93,14 +77,6 @@ h3 {
       padding-top: 30px;
       height: 844px;
       width: 390px;
-    }
-
-    img {
-      border-radius: 15%;
-      border-style: solid;
-      border-width: 1px;
-      border-color: black;
-      margin-bottom: 30px;
     }
   }
 }
