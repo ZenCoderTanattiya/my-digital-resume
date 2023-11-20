@@ -116,18 +116,3 @@ h3 {
     }
   }
 }
-
-@media only screen and (max-width: 1440px) {
-  img {
-    src: url("images/portrait.png");
-  }
-
-  @media only screen and (max-width: 912px) {
-  }
-
-  @media only screen and (max-width: 820px) {
-  }
-
-  @media only screen and (max-width: 390px) {
-  }
-}
